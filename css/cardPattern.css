@@ -1,0 +1,75 @@
+.card{
+	width:   76px;
+	height: 102px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #A57979;
+	background-color: #C9C992;
+	background-size: cover;
+	border-radius: 18px;
+	padding: 1%;
+	font-size: 20px;
+	position: absolute;
+}
+.frame{
+	display: none;
+	width:  95%;
+	height: 95%;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #b68989;
+	border-radius: 9%;
+	background-color: inherit;
+	background-size: 100%;
+	background-position: 20%;
+	background-repeat: no-repeat;
+}
+.margem{
+	float: left;
+	width: 100%;
+	height: 10%;
+}
+.sup{
+	margin-top: -4%;
+}
+.inf{
+	margin-top: 100%;
+}
+.circulo{
+	width:  29%;
+	height: 200%;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #b68989;
+	border-radius: 50px;
+	background-color: #C0c0C0;
+}
+.left{
+	float: left;
+	margin-left: -6%;
+}
+.right{
+	float: right;
+	margin-right: -6%;
+}
+.texto_num{
+	font-family: Arial;
+	font-size: 100%;
+	text-align: center;
+	color: #22419E;
+	margin-top:   3%;
+	margin-left: -2%;
+	font-weight: bold;
+}
+
+.atrib{
+	float: right;
+	font-size: 11px;
+	width: 40px;
+	margin-right: 1px;
+	color: rgb(125, 91, 162);
+	word-wrap: break-word;
+	margin-top: 2px;
+	text-align: center;
+	font-weight: bold;
+}

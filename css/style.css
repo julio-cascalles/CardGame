@@ -1,0 +1,253 @@
+body{
+	width: 1024px;
+	height: 768px;
+	background-image: url(../img/bg.jpg);
+	background-repeat: no-repeat;
+}
+.botao{
+	cursor: pointer;
+}
+.area{
+	display: none;
+}
+@font-face{
+	font-family: FontMenu;
+	src: url(../font/IMPRISHA.ttf);
+}
+.txt_menu{
+	font-family: FontMenu;
+	color: #F0CB16;
+}
+#titulo{
+	font-size: 95px;
+	position: relative;
+	left: 260px;
+	top: 11px;
+}
+#rigthPanel{
+	position: absolute;
+	width: 250px;
+	height: 100%;
+	padding: 3px;
+	left: 593px;
+	top:  161px;
+}
+.option{
+	font-size: 60px;
+	width:  243px;
+	height:  92px;
+	background-image: url(../img/bg_btn.png);
+	background-repeat: no-repeat;
+	text-align: center;
+	margin-top: -50px;
+	float: left;
+}
+#bt_Tutorial{
+	/*margin-top: 35px;*/
+	margin-top: 107px;
+}
+#bt_Demo{
+	/*display: none;*/
+}
+#menu{
+	width:  900px;
+	height: 634px;
+	margin-left: 20px;
+	margin-top:  20px;
+	background-image: url(../img/bg_menu.png);
+	background-repeat: no-repeat;
+}
+#game_Area{
+}
+#bt_Fim{
+	float: left;
+	margin-left: 848px;
+	margin-top:  217px;
+	width: 110px;
+}
+.pilha{
+	float: left;
+	width:   76px;
+	height: 102px;
+	border-radius: 15px;
+	border: 3px dashed #5F748A;
+}
+#pilha1{
+	margin-left: 583px;
+	margin-top:  188px;
+}
+#pilha2{
+	margin-left: 50px;
+	margin-top:  35px;
+}
+.barra{
+	float: left;
+	background-image: url(../img/barra.png);
+	background-repeat: no-repeat;
+	width: 292px;
+	height: 55px;
+}
+#barra1{
+	margin-left:   2px;
+	margin-top:  220px;
+}
+#barra2{
+	margin-left: 583px;
+	margin-top:   60px;
+}
+.mana{
+	float: left;
+	margin-top: 7px;
+	width: 39px;
+}
+.small{
+	width: 72px;
+	height: 98px;
+}
+.hand1{
+	transform: rotate(53deg);	
+	-webkit-transform: rotate(53deg);
+	-ms-transform: rotate(53deg);
+}
+.hand2{
+	transform: rotate(36deg);
+	-webkit-transform: rotate(36deg);
+	-ms-transform: rotate(36deg);
+}
+.hand3{
+	transform: rotate(0deg);	
+	-webkit-transform: rotate(0deg);
+	-ms-transform: rotate(0deg);
+}
+.hand4{
+	transform: rotate(-13deg);	
+	-webkit-transform: rotate(-13deg);
+	-ms-transform: rotate(-13deg);
+}
+.hand5{
+	transform: rotate(-40deg);	
+	-webkit-transform: rotate(-40deg);
+	-ms-transform: rotate(-40deg);
+}
+
+@font-face{
+	font-family: FontMsg;
+	src : url(../font/ARDELANEY.ttf);
+}
+
+#txt_msg{
+	width:  760px;
+	height: 177px;
+	position: absolute;
+	left: 170px;
+	top:  300px;
+	z-index: 9999;
+	display: none;
+	font-family: FontMsg;
+	font-size: 76px;
+	color: #CCCC33;
+	text-align: center;
+	background-color: rgba(53, 53, 53, 0.47);
+	border-radius: 20px;
+}
+
+/*-------- Tutorial ------------*/
+#tutorial_Area{
+	position: absolute;
+	left: 0px;
+	top:  0px;
+	z-index: 999;
+}
+.dica{
+	background-color: #FFFFCC;
+	position: relative;
+	padding: 5px;
+	font-family: Arial;
+	font-size: 16px;
+	color: #5A4F64;
+	display: none;
+}
+#dica1{
+	width: 157px;
+	left:  297px;
+	top:   560px;
+}
+#dica2{
+	width: 272px;
+	left:   52px;
+	top:   555px;
+}
+#dica3{
+	width: 140px;
+	left:  540px;
+	top:   651px;
+}
+#dica4{
+	width: 205px;
+	left:  495px;
+	top:   483px;
+}
+#dica5{
+	width: 205px;
+	left:  807px;
+	top:   410px;
+}
+#dica6{
+	width: 162px;
+	left:  360px;
+	top:   330px;
+}
+#dica7{
+	width: 205px;
+	left:  491px;
+	top:   472px;
+}
+#dica8{
+	width: 163px;
+	left:  532px;
+	top:   408px;
+}
+#dica9{
+	width: 153px;
+	left:  351px;
+	top:   239px;
+}
+#dica10{
+	width: 182px;
+	left:  792px;
+	top:   475px;
+}
+#dica11{
+	width: 205px;
+	left:  809px;
+	top:   412px;
+}
+#dica12{
+	width: 171px;
+	left:  746px;
+	top:   105px;
+}
+#dica13{
+	width: 232px;
+	left:  135px;
+	top:   335px;
+}
+
+i{
+	color: #B80F45;
+}
+u{
+	color: #30B295;
+}
+#bt_Reinicia{
+	display: none;
+	position: absolute;
+	/*
+	left: 390px;
+	top:  426px;
+	*/
+	left: 790px;
+	top:  397px;
+	font-size: 42px;
+	line-height: 46px;
+}

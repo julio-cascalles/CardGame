@@ -1,0 +1,50 @@
+
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>card Game</title>
+	<link href="css/cardPattern.css" rel="stylesheet" type="text/css">
+	<link href="css/style.css" rel="stylesheet" type="text/css">
+	<script src="js/lib/jquery-1.9.1.js"></script>
+	<script src="js/lib/jquery-ui.js"></script>
+	<script src="js/cardGame.js"></script>
+	<script src="js/data.js"></script>
+	<script src="js/main.js"></script>
+</head>
+<body> <!-- onload='init("tutorial");'-->
+	<div id="feedBack">
+		<p id="txt_msg"></p>
+		<p id="bt_Reinicia" class="botao txt_menu option" onclick="reinicia();">Jogar de novo?</p>
+	</div>
+	<div id="menu">
+		<p id="titulo" class="txt_menu">dinoKards</p>
+		<div id="rigthPanel">
+			<p id="bt_Tutorial" class="botao txt_menu option" onclick='init("tutorial")'>Tutorial</p>
+			<p id="bt_Demo" class="botao txt_menu option" onclick='init("demo")'>Demo</p>
+			<p class="botao txt_menu option" onclick='init("game")'>Jogar</p>
+		</div>		
+	</div>
+	<div id="game_Area" class="area">
+		<div id="pilha2" class="pilha"></div>
+		<div class="barra" id="barra2"></div>
+		<img id="bt_Fim" class="botao" src="img/bt_Fim.png" onclick="encerraTurno();">
+		<div class="barra" id="barra1"></div>
+		<div id="pilha1" class="pilha"></div>
+	</div>
+	<div id="tutorial_Area" class="area">
+		<p id="dica1" class="dica botao">O número de cima é o custo para jogar a carta.<br><b>Clique na dica para continuar</b></p>
+		<p id="dica2" class="dica botao">Aqui estarão seus “pontos de ação” para você pagar o custo das cartas</p>
+		<p id="dica3" class="dica botao">Para ativar uma carta, <b>clique na carta</b>!</p>
+		<p id="dica4" class="dica botao">Aqui aparece o poder de ataque da carta.</p>
+		<p id="dica6" class="dica botao">Esta carta é do tipo <i>"Defensor"</i> - por isso deve ser atacada primeiro.</p>
+		<p id="dica5" class="dica botao">Depois de terminar sua jogada, clique <b>no botão "Fim de Turno"!</b></p>
+		<p id="dica7" class="dica botao">Cartas jogadas no turno anterior ficam <u>ativas</u> para atacar.</p>
+		<p id="dica8" class="dica botao">Para atacar clique <b>na sua carta ativa</b>...</p>
+		<p id="dica9" class="dica botao">...Depois clique na carta "alvo"</p>
+		<p id="dica10" class="dica botao">O dano sofrido diminiu a defesa da carta</p>
+		<p id="dica11" class="dica botao">Pressione "Fim de Turno" novamente!</p>
+		<p id="dica12" class="dica botao">A cada turno a barra vai enchendo..</p>
+		<p id="dica13" class="dica botao">Algumas cartas não precisam esperar um turno para poder atacar.</p>
+	</div>
+</body>
+</html>
